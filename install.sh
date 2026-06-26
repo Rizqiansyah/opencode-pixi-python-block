@@ -7,9 +7,10 @@ PLUGIN_DIR="$CONFIG_DIR/plugins/opencode-pixi-python-block"
 CONFIG_PATH="$CONFIG_DIR/opencode.jsonc"
 PLUGIN_REF="./plugins/opencode-pixi-python-block/plugin.js"
 
-mkdir -p "$PLUGIN_DIR"
+mkdir -p "$PLUGIN_DIR/src"
 cp "$REPO_DIR/plugin.js" "$PLUGIN_DIR/plugin.js"
 cp "$REPO_DIR/package.json" "$PLUGIN_DIR/package.json"
+cp "$REPO_DIR/src/blocker.js" "$PLUGIN_DIR/src/blocker.js"
 
 node "$REPO_DIR/scripts/add-plugin-to-config.mjs" "$CONFIG_PATH" "$PLUGIN_REF"
 

@@ -23,7 +23,10 @@ bash install.sh
 ```
 
 Installer actions:
-1. Copies plugin into `~/.config/opencode/plugins/opencode-pixi-python-block/`
+1. Copies plugin runtime into `~/.config/opencode/plugins/opencode-pixi-python-block/`
+   - `plugin.js`
+   - `package.json`
+   - `src/blocker.js`
 2. Adds plugin entry to `~/.config/opencode/opencode.jsonc`
 3. Leaves `opencode.jsonc.bak` backup when config changed
 
