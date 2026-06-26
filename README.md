@@ -5,6 +5,16 @@ Small OpenCode plugin. Purpose: hard-block bare `python` and `python3` shell cal
 Public repo:
 - https://github.com/Rizqiansyah/opencode-pixi-python-block
 
+## Demo
+
+Animated demo:
+
+![Animated demo of OpenCode blocking bare python and suggesting pixi](assets/demo.gif)
+
+Source transcript:
+- `assets/demo.txt`
+- regenerate with: `python3 scripts/generate_demo.py`
+
 ## What it does
 
 Scope intentionally narrow.

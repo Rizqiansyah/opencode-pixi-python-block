@@ -1,0 +1,14 @@
+User prompt:
+Run exactly one shell command and nothing else: python3 /path/to/hello.py
+
+OpenCode bash tool call:
+python3 /path/to/hello.py
+
+Plugin response:
+Blocked: python3 is deliberately disabled for OpenCode shell execution.
+Reason: this project must use Pixi-managed Python environments, not bare python/python3.
+Use: pixi run python /path/to/hello.py
+
+Correct path:
+pixi run python /path/to/hello.py
+Hello World
