@@ -1,0 +1,17 @@
+{
+  "name": "opencode-pixi-python-block",
+  "version": "0.1.0",
+  "description": "OpenCode plugin that blocks python/python3 shell calls and tells agents to use pixi.",
+  "type": "module",
+  "private": false,
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "opencode",
+    "plugin",
+    "pixi",
+    "python"
+  ]
+}
